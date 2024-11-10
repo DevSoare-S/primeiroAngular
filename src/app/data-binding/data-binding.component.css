@@ -1,0 +1,38 @@
+:host {
+    background: #999;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo {
+
+    color: aqua;
+}
+
+button {
+
+    margin: 15px;
+}
+
+.botao {
+
+    border: 0;
+    padding: 15px;
+    border-radius: 45px;
+    color: #0c08ee;
+    font-size: 15px;
+    
+}
+
+.vermelho {
+
+    background: #d10d0d;
+}
+
+.verde {
+
+    background: green;
+}

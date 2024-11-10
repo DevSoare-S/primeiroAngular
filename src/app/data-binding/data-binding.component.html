@@ -1,0 +1,16 @@
+<p>data-binding works!</p>
+
+<h2 [class.titulo]="estilizarTitulo" >{{message}}</h2>
+
+<img [src]="imagePath" [style.width]="imageWidth">
+
+<button [attr.aria-label]="ariaLabel" [disabled]="isDisable" [style]="botaoFechar">x</button>
+
+<button (click)="enableCloseButton()" [class]="botaoClass">Habilitar o botao fechar</button>
+
+<button (click)="aplicarEstiloTitulo()" [class]="botaoClass">Aplicar estilo no titulo</button>
+
+<label for="nome">Nome</label>
+<input type="text" id="nome" [(ngModel)]="nomeCliente">
+
+<span>O nome digitado é</span><span id="nomeDigitado">{{nomeCliente}}</span>
